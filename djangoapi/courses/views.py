@@ -5,4 +5,5 @@ from .serializers import CourseSerializer
 
 class CourseView(viewsets.ModelViewSet):
 	queryset = Course.objects.all()
+	print("Add")
 	serializer_class = CourseSerializer
